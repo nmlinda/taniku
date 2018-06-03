@@ -8,3 +8,4 @@ test me :
 import taniku.sql to db
 
 localhost/taniku/campaign_detail1
+localhost/taniku/account_backed_campaigns1 -> belom fix, kurang input mau brp entry yg dishow masi eror
