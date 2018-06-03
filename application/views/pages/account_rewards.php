@@ -6,7 +6,7 @@
 			<h1>Rewards</h1>
 			<div class="breadcrumbs">
 				<ul>
-					<li><a href="index.html">Home</a><span>/</span></li>
+					<li><a href="<?php echo base_url(); ?>index">Home</a><span>/</span></li>
 					<li>Rewards</li>
 				</ul>
 			</div><!-- .breadcrumbs -->
@@ -18,13 +18,13 @@
 				<div class="col-lg-3">
 					<nav class="account-bar">
 						<ul>
-							<li><a href="dashboard.html">Dashboard</a></li>
-							<li><a href="profile.html">Profile</a></li>
-							<li><a href="account_my_campaigns.html">My Campaigns</a></li>
-							<li><a href="account_backed_campaigns.html">Backed Campaigns</a></li>
-							<li><a href="account_pledges_received.html">Pledges Received</a></li>
-							<li class="active"><a href="account_rewards.html">Rewards</a></li>
-							<li><a href="account_payments.html">Payments</a></li>
+							<li><a href="dashboard">Dashboard</a></li>
+							<li><a href="profile">Profile</a></li>
+							<li><a href="account_my_campaigns">My Campaigns</a></li>
+							<li><a href="account_backed_campaigns">Backed Campaigns</a></li>
+							<li><a href="account_pledges_received">Pledges Received</a></li>
+							<li class="active"><a href="account_rewards">Rewards</a></li>
+							<li><a href="account_payments">Payments</a></li>
 						</ul>
 					</nav>
 				</div>

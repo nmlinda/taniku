@@ -6,7 +6,7 @@
 			<h1>Profile</h1>
 			<div class="breadcrumbs">
 				<ul>
-					<li><a href="index.html">Home</a><span>/</span></li>
+					<li><a href="<?php echo base_url(); ?>index">Home</a><span>/</span></li>
 					<li>Profile</li>
 				</ul>
 			</div><!-- .breadcrumbs -->

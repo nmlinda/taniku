@@ -3,11 +3,11 @@
 <main id="main" class="site-main">
 	<div class="page-title background-campaign">
 		<div class="container">
-			<h1>Sapi Limosin</h1>
+			<h1>Budidaya Sorghum</h1>
 			<div class="breadcrumbs">
 				<ul>
 					<li><a href="<?php echo base_url(); ?>index">Home</a><span>/</span></li>
-					<li>Pembibitan Sapi</li>
+					<li>Budidaya Sorghum</li>
 				</ul>
 			</div><!-- .breadcrumbs -->
 		</div>
@@ -18,38 +18,39 @@
 				<div class="campaign-item clearfix">
 					<div class="campaign-image">
 						<div id="owl-campaign" class="campaign-slider">
-							<div class="item"><?php echo img('assets/images/placeholder/sapi1.png', TRUE); ?></div>
-							<div class="item"><?php echo img('assets/images/placeholder/sapi2.png', TRUE); ?></div>
-							<div class="item"><?php echo img('assets/images/placeholder/sapi3.png', TRUE); ?></div>
+							<div class="item"><img src="<?php echo base_url(); ?>assets/images/placeholder/sorgum1.png" alt=""></div>
+							<div class="item"><img src="<?php echo base_url(); ?>assets/images/placeholder/sorgum2.png" alt=""></div>
+							<div class="item"><img src="<?php echo base_url(); ?>assets/images/placeholder/sorgum3.png" alt=""></div>
 						</div>
 					</div>
 					<div class="campaign-box">
-						<a href="#" class="category">Pembibitan Sapi</a>
-						<h3>Sapi Limosin</h3>
-						<div class="campaign-description"><p>Unit usaha pengembangbiakan ini ialah sebuah area yang kami persiapkan untuk mengembalakan sekelompok (koloni) sapi yang terdiri dari sapi betina dan sapi jantan unggul, sehingga diharapkan dapat terjadi proses perkawinan secara alami. Target kami mampu menghasilkan sapi indukan sekitar 3.000�5.000 ekor setiap tahun atau sekitar 10-15 anakan sapi lahir setiap harinya, guna menyuplai keberlangsungan proses berikutnya. .</p></div>
+						<a href="#" class="category">Pertanian</a>
+						<h3>Budidaya Sorghum</h3>
+						<div class="campaign-description"><p>Sorghum spp. atau Sorghum adalah salah satu tanaman serealia yang serbaguna yang banyak digunakan sebagai pengganti makanan pokok; dijadikan tepung untuk membuat roti, kue , bubur dll; bahan baku industri; serta pakan ternak. Sorghum menjadi makanan pokok di daerah Asia Selatan dan Afrika sub-sahara.</p></div>
 						<div class="campaign-author clearfix">
 							<div class="author-profile">
-								<a class="author-icon" href="#"><?php echo img('assets/images/placeholder/35x35.png', TRUE); ?></a>by <a class="author-name" href="#">Fitri Wahyu</a>
+								<a class="author-icon" href="#"><img src="<?php echo base_url(); ?>assets/images/placeholder/35x35.png" alt=""></a>by <a class="author-name" href="#">Fitri Wahyu</a>
 							</div>
 							<div class="author-address"><span class="ion-location"></span>Komplek Depsos, Bintaro, Jakarta Selatan</div>
 						</div>
 						<div class="process">
-							<div class="raised"><span></span></div>
-							<div class="process-info">
+                            <div class="process-info" style="margin-bottom:10px">
 								<div class="process-funded"><span>$10000</span>funding goal</div>
-								<div class="process-pledged"><span>$8100</span>pledged</div>
-								<div class="process-time"><span>37</span>backers</div>
-								<div class="process-time"><span>23</span>days ago</div>
+                                <div class="process-pledged pull-right"><span>$8100</span>pledged</div>
+                            </div>
+							<div class="raised"><span></span></div>
+							<div class="process-info" style="margin-bottom:10px">
+								<div class="process-time"><strong><i class="fa fa-male" aria-hidden="true"></i> 37 </strong>backers</div>
+								<div class="process-time pull-right"><strong><i class="fa fa-clock-o" aria-hidden="true"></i> 100 </strong> days left</div>
 							</div>
 						</div>
-						<div class="button">
-							<form action="" id="priceForm" class="campaign-price quantity">
-								<input type="number" value="1" min="0" value="" name="s" placeholder="" />
-								<button class="btn-primary" type="submit">Back this Campaign</button>
-							</form>
-							<a href="#" class="btn-secondary"><i class="fa fa-heart" aria-hidden="true"></i>Remind me</a>
-						</div>
-						<div class="share">
+						<form action="" id="priceForm" class="campaign-price quantity">
+							<input type="number" value="1" min="0" style="width:20%" name="s" placeholder="Rp " />
+        			        <button class="btn-primary" style="display:block;width:75%;float:right;" type="submit">Back This Campaign</button>
+                        </form>
+                        <div class="button">
+                            <a href="#" class="btn-secondary" style="float:right;margin-top:20px;margin-right:0px"><i class="fa fa-heart" aria-hidden="true"></i>Remind me</a></li>
+                        <div class="share" style="margin-top:20px">
 							<p>Share this project</p>
 							<ul>
 								<li class="share-facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -57,8 +58,9 @@
 								<li class="share-google-plus"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 								<li class="share-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 								<li class="share-code"><a href="#"><i class="fa fa-code" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
+                            </ul>
+                        </div>
+                            
 					</div>
 				</div>
 			</div>
@@ -78,12 +80,12 @@
 						</ul>
 						<div class="campaign-content">
 							<div id="campaign" class="tabs active">
-								<p>Untuk menghasilkan daging sapi yang berkualitas dan menyehatkan, kita perlu mengetahui bibit atau asal usul sapi yang kita pelihara. Ketika para feedloter menghindari pelihara pedet (sapi berumur kurang dari 1 tahun) dan lebih memilih untuk membesarkan sapi bakalan (sapi berumur 1.5 � 2 tahun) karena perputaran menghasilkan uangnya lebih cepat, namun tidak bagi kami PT Sedana Peternak Sentosa yang memilih salah satu rencana usahanya ialah menghasilkan sapi bakalan. Karena kami ingin meyakinkan betul bahwa setiap gram daging sapi yang dikonsumsi dapat dipertanggung
-									jawabkan kualitasnya.</p>								<p>Ouput dari unit usaha pengembangbiakan diatas yang berupa pedet lepas sapih usia 3-4 bulan akan dipindahkan dan dipelihara dalam unit usaha sapi bakalan. Dimana pedet lepas sapih akan dipelihara dan dijaga perkembangannya hingga umur 15-16 bulan, hingga sapi siap untuk memasuki periodepenggemukan yang akan siap dipotong untuk konsumsi.</p>
-								<?php echo img('assets/images/placeholder/sorgum4.png', TRUE); ?>
-								<!-- <img src="images/placeholder/sorgum4.png" alt=""> -->
-								<p>Sapi Limousin � Mempunyai ciri berwarna hitam bervariasi dengan warna merah bata dan putih, terdapat warna putih pada moncong kepalanya, tubuh berukuran besar dan mempunyai tingkat produksi yang baik.</p>
-								<p>Karena bernilai ekonomis tinggi, saatnya untuk membudidayakan Sapi di Indonesia.</p>
+								<p>Jika dilihat sekilas tanaman sorghum mirip dengan tanaman jagung. Di Indonesia sorghum masih jarang dimanfaatkan atau diolah manjadi makanan. Padahal, sorghum mengandung karbohidrat yang sama baiknya dengan beras. Di Indonesia produksi tanaman sorghum masih rendah dibandingkan produksi di beberapa negara di Asia tenggara. Tanaman sorghum ini dapat tumbuh walaupun dalam kondisi kekeringan dan dapat terus tumbuh walaupun telah dipangkas batangnya. Tanaman sorghum harus lebih dikembangkan di Indonesia, terutama melalui project budidaya ini.</p>
+	<p>Sorgum atau Cantel, adalah jenis tanaman yang dimanfaatkan buahnya untuk dijadikan tepung sorghum sebagai kebutuhan pangan pokok, juga bisa diolah untuk pakan ternak dan bahan baku industri. Di Indonesia tanaman ini di budidayakan didaerah bagain timur, tepung sorghum dapat diolah menjadi bermacam jenis makanan, seperti aneka kue, roti, jenang, tepung bubur dll.
+	<p>Menanam / membudidaya kan sorghum tidak sulit karena tanaman ini dapat tumbuh di daerah yang tinggi maupun yang rendah.tanah yang di butuhkan dari tanah lempung, lempung berpasir, tanah branjangan tanah lebu dan tanah yang mengandung bahan organik, curah hujan sedang  suhu udara 22- 32 derajat c, ph tanah 5, 5 s/d 7 dan tata air yang baik.</p>
+								<img src="<?php echo base_url(); ?>assets/images/placeholder/sorgum4.png" alt="">
+								<p>Sorghum dapat dipanen setelah berumur sekitar 90 hingga 100 hari setelah tanam atau 45 hari setelah bakal biji terbentuk. Ciri sorghum yang siap panen yaitu kulit buahnya sudah berubah warna dari hijau ke hitam atau merah, kulit buah sudah pecah dan isinya kelihatan.</p>
+								<p>Karena bernilai ekonomis tinggi, saatnya untuk membudidayakan Sorghum di Indonesia.</p>
 							</div>
 							<div id="backer" class="tabs">
 								<table>
@@ -158,7 +160,7 @@
 								<ol class="comments-list">
 									<li class="comment clearfix"> 
 										<div class="comment-body">
-											<div class="comment-avatar"><?php echo img('assets/images/placeholder/70x70.png', TRUE); ?></div>
+											<div class="comment-avatar"><img src="<?php echo base_url(); ?>assets/images/placeholder/70x70.png" alt=""></div>
 											<div class="comment-info">
 												<header class="comment-meta"></header>
 												<cite class="comment-author">Jordan B. Goodale</cite>
@@ -202,8 +204,8 @@
 							<a href="javascript:void(0)">
 								<h4>Pledge $100 - $200</h4>
 								<div class="plan-desc"><p>Tanaman sorgum sudah dapat dipanen pada umur 3-4 bulan tergantung varietas.
-									Penentuan saat panen sorgum dapat dilakukan dengan berpedoman pada umur setelah biji terbentuk atau dengan melihat ciri-ciri visual biji. Pemanenan juga dapat dilakukan setelah
-									melihat adanya ciri-ciri seperti daun-daun berwarna kuning dan mengering, biji-biji bernas dan keras serta berkadar tepung maksimal.</p></div>
+Penentuan saat panen sorgum dapat dilakukan dengan berpedoman pada umur setelah biji terbentuk atau dengan melihat ciri-ciri visual biji. Pemanenan juga dapat dilakukan setelah
+melihat adanya ciri-ciri seperti daun-daun berwarna kuning dan mengering, biji-biji bernas dan keras serta berkadar tepung maksimal.</p></div>
 								<div class="plan-date">Siap panen 25 December 2017</div>
 								<div class="plan-author">Estimated Delivery</div>
 								<div class="backer">37 backer</div>
@@ -224,3 +226,5 @@
 		</div>
 	</div><!-- .campaign-history -->
 </main><!-- .site-main -->
+
+    

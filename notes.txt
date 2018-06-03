@@ -3,3 +3,8 @@ still error :
     file_get_contents
 
 - 
+
+test me :
+import taniku.sql to db
+
+localhost/taniku/campaign_detail1

@@ -19,7 +19,7 @@
 		<header id="header" class="site-header">
 			<div class="container">
 				<div class="site-brand">
-					<a href="index.html"><img src="" alt=""></a>
+					<a href="<?php echo base_url(); ?>index"><img src="" alt=""></a>
 				</div><!-- .site-brand -->
 			</div><!-- .container -->
 		</header><!-- .site-header -->

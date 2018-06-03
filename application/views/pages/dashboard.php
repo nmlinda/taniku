@@ -6,7 +6,7 @@
 			<h1>Dashboard</h1>
 			<div class="breadcrumbs">
 				<ul>
-					<li><a href="index.html">Home</a><span>/</span></li>
+					<li><a href="<?php echo base_url(); ?>index">Home</a><span>/</span></li>
 					<li>Dashboard</li>
 				</ul>
 			</div><!-- .breadcrumbs -->
@@ -18,13 +18,13 @@
 				<div class="col-lg-3">
 					<nav class="account-bar">
 						<ul>
-							<li class="active"><a href="dashboard.html">Dashboard</a></li>
-							<li><a href="profile.html">Profile</a></li>
-							<li><a href="account_my_campaigns.html">My Campaigns</a></li>
-							<li><a href="account_backed_campaigns.html">Backed Campaigns</a></li>
-							<li><a href="account_pledges_received.html">Pledges Received</a></li>
-							<li><a href="account_rewards.html">Rewards</a></li>
-							<li><a href="account_payments.html">Payments</a></li>
+							<li class="active"><a href="<?php echo base_url(); ?>dashboard">Dashboard</a></li>
+							<li><a href="<?php echo base_url(); ?>profile">Profile</a></li>
+							<li><a href="<?php echo base_url(); ?>account_my_campaigns">My Campaigns</a></li>
+							<li><a href="<?php echo base_url(); ?>account_backed_campaigns">Backed Campaigns</a></li>
+							<li><a href="<?php echo base_url(); ?>account_pledges_received">Pledges Received</a></li>
+							<li><a href="<?php echo base_url(); ?>account_rewards">Rewards</a></li>
+							<li><a href="<?php echo base_url(); ?>account_payments">Payments</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -33,7 +33,7 @@
 						<h3 class="account-title">Dashboard</h3>
 						<div class="account-main">
 							<div class="author clearfix">
-								<a class="author-avatar" href="#"><img src="images/placeholder/avatar.png" alt=""></a>
+								<a class="author-avatar" href="#"><img src="<?php echo base_url(); ?>assets/images/placeholder/avatar.png" alt=""></a>
 								<div class="author-content">
 									<div class="author-title"><h3><a href="#">Henry Cavill</a></h3><a class="edit-profile" href="#">Edit Profile</a></div>
 									<div class="author-info">
@@ -46,17 +46,17 @@
 								<h3>My Latest Campaigns</h3>
 								<ul>
 									<li>
-										<a href="campaign_detail.html"><img src="images/placeholder/corn.png" alt=""></a>
+										<a href="<?php echo base_url(); ?>campaign_detail"><img src="<?php echo base_url(); ?>assets/images/placeholder/corn.png" alt=""></a>
 										<div class="dashboard-latest-box">
-											<div class="category"><a href="index.html">Pertanian</a></div>
-											<h4><a href="campaign_detail.html">Budidaya Jagung Manis</a></h4>
+											<div class="category"><a href="<?php echo base_url(); ?>index">Pertanian</a></div>
+											<h4><a href="<?php echo base_url(); ?>campaign_detail">Budidaya Jagung Manis</a></h4>
 										</div>
 									</li>
 									<li>
-										<a href="campaign_detail.html"><img src="images/placeholder/sutera.png" alt=""></a>
+										<a href="<?php echo base_url(); ?>campaign_detail"><img src="<?php echo base_url(); ?>assets/images/placeholder/sutera.png" alt=""></a>
 										<div class="dashboard-latest-box">
-											<div class="category"><a href="index.html">Tenun</a></div>
-											<h4><a href="campaign_detail.html">Tenun Sutera</a></h4>
+											<div class="category"><a href="<?php echo base_url(); ?>index">Tenun</a></div>
+											<h4><a href="<?php echo base_url(); ?>campaign_detail">Tenun Sutera</a></h4>
 										</div>
 									</li>
 								</ul>
