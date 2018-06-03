@@ -46,10 +46,10 @@
 						</div>
 						<form action="" id="priceForm" class="campaign-price quantity">
 							<input type="number" value="1" min="0" style="width:20%" name="s" placeholder="Rp " />
-        			        <button class="btn-primary" style="display:block;width:75%;float:right;" type="submit">Back This Campaign</button>
+        			        <button class="btn-primary" style="display:block;width:75%;float:right;padding: 0px 100px" type="submit">Back This Campaign</button>
                         </form>
                         <div class="button">
-                            <a href="#" class="btn-secondary" style="float:right;margin-top:20px;margin-right:0px"><i class="fa fa-heart" aria-hidden="true"></i>Remind me</a></li>
+                            <a href="#" class="btn-secondary" style="float:right;margin-top:10px;margin-right:0px"><i class="fa fa-heart" aria-hidden="true"></i>Remind me</a></li>
                         <div class="share" style="margin-top:20px">
 							<p>Share this project</p>
 							<ul>
