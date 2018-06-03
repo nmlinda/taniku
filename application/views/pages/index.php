@@ -1,3 +1,5 @@
+<body class="home">
+	<div id="wrapper">
 <main id="main" class="site-main">
 	<div class="sideshow">
 		<div class="container">
@@ -30,7 +32,7 @@
 			<div class="campaign-content" id="campaign-content" style="display: block;">						
 				<div class="row">
 					<?php
-						$data = file_get_contents('http://api.taniku.onpremi.com/campaigns');
+						$data = file_get_contents('https://api.taniku.onpremi.com/campaigns');
 						$json = json_decode($data);
 						$i = 0;
 						foreach($json->data->campaign as $res){

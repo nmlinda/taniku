@@ -1,3 +1,6 @@
+<?php
+	defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,9 +9,9 @@
 	<title>Investani</title>
 
 	<!-- Style CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/responsive.css" />
+    <link rel="icon" href="<?php echo base_url(); ?>assets/images/favicon.png" type="image/x-icon"/>
 </head>
 
 <body class="coming-soon">
@@ -76,15 +79,15 @@
 		</footer><!-- site-footer -->
 	</div><!-- #wrapper -->
 	<!-- jQuery -->    
-    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="libs/popper/popper.js"></script>
-    <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="libs/owl-carousel/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="libs/jquery.countdown/jquery.countdown.min.js"></script>
-    <script type="text/javascript" src="libs/wow/wow.min.js"></script>
-    <script type="text/javascript" src="libs/isotope/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="libs/bxslider/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/popper/popper.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/jquery.countdown/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/wow/wow.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/isotope/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/bxslider/jquery.bxslider.min.js"></script>
     <!-- orther script -->
-    <script  type="text/javascript" src="js/main.js"></script>
+    <script  type="text/javascript" src="<?php echo base_url(); ?>assets/js/main.js"></script>
 </body>
 </html>

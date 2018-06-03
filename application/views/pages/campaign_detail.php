@@ -1,3 +1,5 @@
+<body class="campaign-detail">
+	<div id="wrapper">
 <main id="main" class="site-main">
 	<div class="page-title background-campaign">
 		<div class="container">
@@ -16,9 +18,9 @@
 				<div class="campaign-item clearfix">
 					<div class="campaign-image">
 						<div id="owl-campaign" class="campaign-slider">
-							<div class="item"><img src="images/placeholder/sorgum1.png" alt=""></div>
-							<div class="item"><img src="images/placeholder/sorgum2.png" alt=""></div>
-							<div class="item"><img src="images/placeholder/sorgum3.png" alt=""></div>
+							<div class="item"><img src="<?php echo base_url(); ?>assets/images/placeholder/sorgum1.png" alt=""></div>
+							<div class="item"><img src="<?php echo base_url(); ?>assets/images/placeholder/sorgum2.png" alt=""></div>
+							<div class="item"><img src="<?php echo base_url(); ?>assets/images/placeholder/sorgum3.png" alt=""></div>
 						</div>
 					</div>
 					<div class="campaign-box">
@@ -27,7 +29,7 @@
 						<div class="campaign-description"><p>Sorghum spp. atau Sorghum adalah salah satu tanaman serealia yang serbaguna yang banyak digunakan sebagai pengganti makanan pokok; dijadikan tepung untuk membuat roti, kue , bubur dll; bahan baku industri; serta pakan ternak. Sorghum menjadi makanan pokok di daerah Asia Selatan dan Afrika sub-sahara.</p></div>
 						<div class="campaign-author clearfix">
 							<div class="author-profile">
-								<a class="author-icon" href="#"><img src="images/placeholder/35x35.png" alt=""></a>by <a class="author-name" href="#">Fitri Wahyu</a>
+								<a class="author-icon" href="#"><img src="<?php echo base_url(); ?>assets/images/placeholder/35x35.png" alt=""></a>by <a class="author-name" href="#">Fitri Wahyu</a>
 							</div>
 							<div class="author-address"><span class="ion-location"></span>Komplek Depsos, Bintaro, Jakarta Selatan</div>
 						</div>
@@ -79,7 +81,7 @@
 								<p>Jika dilihat sekilas tanaman sorghum mirip dengan tanaman jagung. Di Indonesia sorghum masih jarang dimanfaatkan atau diolah manjadi makanan. Padahal, sorghum mengandung karbohidrat yang sama baiknya dengan beras. Di Indonesia produksi tanaman sorghum masih rendah dibandingkan produksi di beberapa negara di Asia tenggara. Tanaman sorghum ini dapat tumbuh walaupun dalam kondisi kekeringan dan dapat terus tumbuh walaupun telah dipangkas batangnya. Tanaman sorghum harus lebih dikembangkan di Indonesia, terutama melalui project budidaya ini.</p>
 	<p>Sorgum atau Cantel, adalah jenis tanaman yang dimanfaatkan buahnya untuk dijadikan tepung sorghum sebagai kebutuhan pangan pokok, juga bisa diolah untuk pakan ternak dan bahan baku industri. Di Indonesia tanaman ini di budidayakan didaerah bagain timur, tepung sorghum dapat diolah menjadi bermacam jenis makanan, seperti aneka kue, roti, jenang, tepung bubur dll.
 	<p>Menanam / membudidaya kan sorghum tidak sulit karena tanaman ini dapat tumbuh di daerah yang tinggi maupun yang rendah.tanah yang di butuhkan dari tanah lempung, lempung berpasir, tanah branjangan tanah lebu dan tanah yang mengandung bahan organik, curah hujan sedang  suhu udara 22- 32 derajat c, ph tanah 5, 5 s/d 7 dan tata air yang baik.</p>
-								<img src="images/placeholder/sorgum4.png" alt="">
+								<img src="<?php echo base_url(); ?>assets/images/placeholder/sorgum4.png" alt="">
 								<p>Sorghum dapat dipanen setelah berumur sekitar 90 hingga 100 hari setelah tanam atau 45 hari setelah bakal biji terbentuk. Ciri sorghum yang siap panen yaitu kulit buahnya sudah berubah warna dari hijau ke hitam atau merah, kulit buah sudah pecah dan isinya kelihatan.</p>
 								<p>Karena bernilai ekonomis tinggi, saatnya untuk membudidayakan Sorghum di Indonesia.</p>
 							</div>
@@ -156,7 +158,7 @@
 								<ol class="comments-list">
 									<li class="comment clearfix"> 
 										<div class="comment-body">
-											<div class="comment-avatar"><img src="images/placeholder/70x70.png" alt=""></div>
+											<div class="comment-avatar"><img src="<?php echo base_url(); ?>assets/images/placeholder/70x70.png" alt=""></div>
 											<div class="comment-info">
 												<header class="comment-meta"></header>
 												<cite class="comment-author">Jordan B. Goodale</cite>
@@ -222,3 +224,5 @@ melihat adanya ciri-ciri seperti daun-daun berwarna kuning dan mengering, biji-b
 		</div>
 	</div><!-- .campaign-history -->
 </main><!-- .site-main -->
+
+    

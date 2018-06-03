@@ -1,3 +1,5 @@
+<body class="campaign-detail">
+	<div id="wrapper">
 <main id="main" class="site-main">
 	<div class="page-title background-campaign">
 		<div class="container">

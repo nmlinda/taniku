@@ -1,3 +1,5 @@
+<body class="campaign-detail">
+	<div id="wrapper">
 <main id="main" class="site-main">
 	<div class="page-title background-campaign">
 		<div class="container">
@@ -16,9 +18,9 @@
 				<div class="campaign-item clearfix">
 					<div class="campaign-image">
 						<div id="owl-campaign" class="campaign-slider">
-							<div class="item"><img src="images/placeholder/sapi1.png" alt=""></div>
-							<div class="item"><img src="images/placeholder/sapi2.png" alt=""></div>
-							<div class="item"><img src="images/placeholder/sapi3.png" alt=""></div>
+							<div class="item"><?php echo img('assets/images/placeholder/sapi1.png', TRUE); ?></div>
+							<div class="item"><?php echo img('assets/images/placeholder/sapi2.png', TRUE); ?></div>
+							<div class="item"><?php echo img('assets/images/placeholder/sapi3.png', TRUE); ?></div>
 						</div>
 					</div>
 					<div class="campaign-box">
@@ -27,7 +29,7 @@
 						<div class="campaign-description"><p>Unit usaha pengembangbiakan ini ialah sebuah area yang kami persiapkan untuk mengembalakan sekelompok (koloni) sapi yang terdiri dari sapi betina dan sapi jantan unggul, sehingga diharapkan dapat terjadi proses perkawinan secara alami. Target kami mampu menghasilkan sapi indukan sekitar 3.000�5.000 ekor setiap tahun atau sekitar 10-15 anakan sapi lahir setiap harinya, guna menyuplai keberlangsungan proses berikutnya. .</p></div>
 						<div class="campaign-author clearfix">
 							<div class="author-profile">
-								<a class="author-icon" href="#"><img src="images/placeholder/35x35.png" alt=""></a>by <a class="author-name" href="#">Fitri Wahyu</a>
+								<a class="author-icon" href="#"><?php echo img('assets/images/placeholder/35x35.png', TRUE); ?></a>by <a class="author-name" href="#">Fitri Wahyu</a>
 							</div>
 							<div class="author-address"><span class="ion-location"></span>Komplek Depsos, Bintaro, Jakarta Selatan</div>
 						</div>
@@ -78,7 +80,8 @@
 							<div id="campaign" class="tabs active">
 								<p>Untuk menghasilkan daging sapi yang berkualitas dan menyehatkan, kita perlu mengetahui bibit atau asal usul sapi yang kita pelihara. Ketika para feedloter menghindari pelihara pedet (sapi berumur kurang dari 1 tahun) dan lebih memilih untuk membesarkan sapi bakalan (sapi berumur 1.5 � 2 tahun) karena perputaran menghasilkan uangnya lebih cepat, namun tidak bagi kami PT Sedana Peternak Sentosa yang memilih salah satu rencana usahanya ialah menghasilkan sapi bakalan. Karena kami ingin meyakinkan betul bahwa setiap gram daging sapi yang dikonsumsi dapat dipertanggung
 									jawabkan kualitasnya.</p>								<p>Ouput dari unit usaha pengembangbiakan diatas yang berupa pedet lepas sapih usia 3-4 bulan akan dipindahkan dan dipelihara dalam unit usaha sapi bakalan. Dimana pedet lepas sapih akan dipelihara dan dijaga perkembangannya hingga umur 15-16 bulan, hingga sapi siap untuk memasuki periodepenggemukan yang akan siap dipotong untuk konsumsi.</p>
-								<img src="images/placeholder/sorgum4.png" alt="">
+								<?php echo img('assets/images/placeholder/sorgum4.png', TRUE); ?>
+								<!-- <img src="images/placeholder/sorgum4.png" alt=""> -->
 								<p>Sapi Limousin � Mempunyai ciri berwarna hitam bervariasi dengan warna merah bata dan putih, terdapat warna putih pada moncong kepalanya, tubuh berukuran besar dan mempunyai tingkat produksi yang baik.</p>
 								<p>Karena bernilai ekonomis tinggi, saatnya untuk membudidayakan Sapi di Indonesia.</p>
 							</div>
@@ -155,7 +158,7 @@
 								<ol class="comments-list">
 									<li class="comment clearfix"> 
 										<div class="comment-body">
-											<div class="comment-avatar"><img src="images/placeholder/70x70.png" alt=""></div>
+											<div class="comment-avatar"><?php echo img('assets/images/placeholder/70x70.png', TRUE); ?></div>
 											<div class="comment-info">
 												<header class="comment-meta"></header>
 												<cite class="comment-author">Jordan B. Goodale</cite>

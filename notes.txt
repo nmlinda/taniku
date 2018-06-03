@@ -1,0 +1,5 @@
+still error :
+- view/index.php
+    file_get_contents
+
+- 

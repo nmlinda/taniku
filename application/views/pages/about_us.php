@@ -1,4 +1,6 @@
-﻿<main id="main" class="site-main">
+﻿<body>
+	<div id="wrapper">
+<main id="main" class="site-main">
 	<section class="top-site">
 		<div class="container">
 			<h1>Our mission is to empower people to unite around ideas that matter to them and together make those ideas come to life.</h1>

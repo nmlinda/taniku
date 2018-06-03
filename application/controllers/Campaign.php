@@ -1,13 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Campaign extends CI_Controller {
 
     public function __construct()
     {
         parent::__construct();
         $this->load->helper('url');
-        $this->load->helper('file');
+        $this->load->helper('html');
+        
         //$this->load->library('session');
 
         // if($this->session->logged_in === FALSE){
@@ -15,18 +16,8 @@ class Home extends CI_Controller {
         // }
     }
 
-	public function index()
+	public function view($page)
 	{
-        $this->load->view('partials/_head');
-        $this->load->view('partials/_header');
-        $this->load->view('pages/index');
-        $this->load->view('partials/_footer');
-    }
-    
-    public function view($page){
-        if($page == 'coming_soon'){
-            $this->load->view('pages/coming_soon');
-        }else{
         $this->load->view('partials/_head');
         $this->load->view('partials/_header');
         if(!file_exists(APPPATH."views/pages/".$page.'.php')){
@@ -36,6 +27,12 @@ class Home extends CI_Controller {
         }
         
         $this->load->view('partials/_footer');
-        }
+    }
+
+    public function detail(){
+        $this->load->view('partials/_head');
+        $this->load->view('partials/_header');
+        $this->load->view('pages/campaign_detail');
+        $this->load->view('partials/_footer');
     }
 }

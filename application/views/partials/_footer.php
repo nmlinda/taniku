@@ -80,12 +80,14 @@
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/popper/popper.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/owl-carousel/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/jquery.countdown/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/owl-carousel/carousel.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/jquery.countdown/jquery.countdown.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/wow/wow.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/isotope/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/libs/bxslider/jquery.bxslider.min.js"></script>
-
-    <!-- orther script -->
+	
+	
+	<!-- orther script -->
     <script  type="text/javascript" src="<?php echo base_url(); ?>assets/js/main.js"></script>
 
     <script type="text/javascript">

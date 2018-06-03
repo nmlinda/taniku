@@ -1,3 +1,5 @@
+<body class="contact-us">
+	<div id="wrapper">
 <main id="main" class="site-main">
 	<div class="page-title background-page">
 		<div class="container">
